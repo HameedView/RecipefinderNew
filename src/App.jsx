@@ -1,5 +1,5 @@
 import Home from './pages/Home'
-import ketosalad from './assets/images/Ketosalad.png'
+import ketosalad from './assets/images/ketosalad.png'
 import star from './assets/images/Star.png'
 import rectangle7 from './assets/images/Rectangle7.png'
 import frame from './assets/images/Frame.png'
