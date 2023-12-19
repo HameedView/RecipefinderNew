@@ -25,7 +25,7 @@ function App() {
 			</div>
 			<section className='flex ml-[60px] mt-[40px]'>
 				<div className=' mt-[50px] w-[300px] flex flex-col items-center relative mr-[30px] '>
-					<img className=' ml-[-70px] z-0 max-w-[400px] md:w-[400px] absolute top-[-140px] md:top-[-100px]' src={ketosalad} />
+					<img className=' ml-[-70px] z-0 max-w-[400px] md:w-[265px] absolute top-[-140px] md:top-[-100px]' src={ketosalad} />
 					<div className='border-[1] ml-[-80px] rounded-3xl h-[160px] max-w-[150px] w-full shadow-md !important'>
 						<div className='ml-[-35px] md:ml-[25px] mb-2 absolute bottom-0 left-0 Urbanist '>
 							<span className='font-bold	text-lg'> Keto Salad</span>
@@ -39,7 +39,7 @@ function App() {
 				</div>
 
 				<div className='mt-[50px] w-[300px] flex flex-col items-center relative mr-[-25px] '>
-					<img className=' ml-[-70px] z-0 max-w-[400px] md:w-[400px] absolute top-[-140px] md:top-[-100px]' src={ketosalad} />
+					<img className=' ml-[-70px] z-0 max-w-[400px] md:w-[265px] absolute top-[-140px] md:top-[-100px]' src={ketosalad} />
 					<div className='ml-[-80px] rounded-3xl h-[160px] max-w-[150px] w-full shadow-md'>
 						<div className='ml-[-35px] md:ml-[25px] mb-2 absolute bottom-0 left-0 Urbanist '>
 							<span className='font-bold	text-lg'> Keto Salad</span>
@@ -101,6 +101,9 @@ function App() {
 			</div>
 
 			<section className='md:mt-10'>
+				<div className='md:hidden'>
+					<img className='w-full ' src={frame} />
+				</div>
 				<div className='grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 max-w-[1280px] mx-auto'>
 					<div>
 						<div className='items-center'>
@@ -110,7 +113,7 @@ function App() {
 									<div>
 										<div className='mt-[40px] font-bold'>Pasta Salad</div>
 										<div className='flex'>
-											<img src={checkcircle} />
+											<img className='h-[20px]' src={checkcircle} />
 											<span className='text-sm md:text-base '>
 												Protects against cancer
 											</span>
@@ -133,7 +136,7 @@ function App() {
 									<div>
 										<div className='mt-[40px] font-bold'>Mung bean Salad</div>
 										<div className='flex'>
-											<img src={checkcircle} />
+											<img className='h-[20px]' src={checkcircle} />
 											<span className='text-sm md:text-base '>
 												Reduce Chronic deseases risk
 											</span>
@@ -226,7 +229,10 @@ function App() {
 					</div>
 
 					<div className=''>
+						<div className='hidden lg:block' >
 						<img className='w-full' src={frame} />
+
+						</div>
 
 						<div className='relative'>
 							<img src={rectangle2} className='w-full' />
